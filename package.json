@@ -1,0 +1,26 @@
+{
+  "name": "color-stream",
+  "version": "1.0.0",
+  "description": "Transforms tweeted colors to colors on a LED strip",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "rpi-ws281x-native": "^0.8.1",
+    "twit": "^2.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fabsrc/twitter-color-stream.git"
+  },
+  "keywords": [
+    "twitter",
+    "color",
+    "LED"
+  ],
+  "author": "Fabian Schneider <fabbbbbi@googlemail.com>",
+  "license": "MIT"
+}
